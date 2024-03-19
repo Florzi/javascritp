@@ -74,7 +74,8 @@ body {
                               display: none;
                               }
                               
-                              .aba-conteudo-titulo-principal{ font-size: 28px;
+                              .aba-conteudo-titulo-principal{ 
+                                font-size: 28px;
                                 text-align: center;
                                 }
 
@@ -89,21 +90,18 @@ body {
                                   text-align: center;
                                   } 
             
+                                 .contador{
+                                 display:flex;
+                                 justify-content: center;
+                                 }
 
-                                  .contador{
-                                    display:flex;
-                                    justify-content: center;
-                                    }
+                                 .contador-digito{
+                                  padding: 0 16px;
+                                  text-align: center;
+                                 }
 
-                                    .contador-digito{
-                                      padding: 0 16px;
-                                      text-align: center;
-                                      }
-
-                                      .contador-digito-numero{ font-size: 80px;
-                                      }
-
-                                      .contador-digito-numero{ font-size: 80px;
+                                      .contador-digito-numero{
+                                        font-size: 80px;
                                         margin: 0;
                                         }
 
@@ -113,13 +111,4 @@ body {
                                           margin: 0
                                           }
                                           
-                                          .contador{
-                                            display:flex;
-                                            justify-content: center;
-                                            flex-wrap: wrap;
-                                            }
-
-                                            .contador-digito{ padding: 0 16px;
-                                              text-align: center;
-                                              min-width: 100px;
-                                              }
+                                          
