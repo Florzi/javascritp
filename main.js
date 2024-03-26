@@ -47,5 +47,17 @@ const textos = document.querySelectorAll(".aba-conteudo");
     return "Prazo Finalizado";
     }
 
+    function atualizaCronometro(){
+        document.getElementById(“dias0”).calculaTempo(tempos[0]);
+        for (let i=0; i<contadores.length;i++){
+        // contadores[i].textContent = calculaTempo(tempos[i]);
+        }
+    if (tempoFinal > 0){
 
-  
+        return [dias,horas,minutos,segundos];
+        
+        } else {
+        
+        return [0,0,0,0];
+        
+        }
