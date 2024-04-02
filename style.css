@@ -62,7 +62,8 @@ body {
                             border-bottom: 4px solid var(--verde);
                             }  
                             .abas-textos{
-                              background-color: var(--texto-fundo); padding: 40px;
+                              background-color: var(--texto-fundo);
+                              padding: 40px;
                               border-radius: 0 0 40px 40px;
                               }
 
@@ -86,18 +87,15 @@ body {
                                 }
 
                                 .contador{
-                                  font-size: 20px;
-                                  text-align: center;
-                                  } 
-            
-                                 .contador{
-                                 display:flex;
-                                 justify-content: center;
-                                 }
+                                  display:flex;
+                                  justify-content: center;
+                                  flex-wrap:wrap;
+                                  }   
 
                                  .contador-digito{
                                   padding: 0 16px;
                                   text-align: center;
+                                  min-width: 100px;
                                  }
 
                                       .contador-digito-numero{
